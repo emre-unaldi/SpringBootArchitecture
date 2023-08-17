@@ -1,0 +1,30 @@
+2023-08-17T19:57:23.535+03:00  INFO 4692 --- [main] c.e.springboot.ApplicationTests          : Starting ApplicationTests using Java 20.0.1 with PID 4692 (started by emree in C:\Users\emree\Desktop\JAVA\SpringBoot)
+2023-08-17T19:57:23.537+03:00  INFO 4692 --- [main] c.e.springboot.ApplicationTests          : No active profile set, falling back to 1 default profile: "default"
+2023-08-17T19:57:24.841+03:00  INFO 4692 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-17T19:57:24.873+03:00  INFO 4692 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 0 JPA repository interfaces.
+2023-08-17T19:57:25.529+03:00  INFO 4692 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-17T19:57:25.652+03:00  INFO 4692 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-08-17T19:57:25.657+03:00  INFO 4692 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-08-17T19:57:25.902+03:00  INFO 4692 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-17T19:57:26.101+03:00  INFO 4692 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-17T19:57:26.132+03:00  INFO 4692 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-08-17T19:57:26.724+03:00  INFO 4692 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:deneme user=ROOT
+2023-08-17T19:57:26.726+03:00  INFO 4692 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-08-17T19:57:26.890+03:00  INFO 4692 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-17T19:57:27.285+03:00  INFO 4692 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-17T19:57:27.293+03:00  INFO 4692 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-17T19:57:27.510+03:00  WARN 4692 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-17T19:57:28.555+03:00  WARN 4692 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-08-17T19:57:29.022+03:00  WARN 4692 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 0e8dbbb8-f671-4312-b2b1-c28108cfd4df
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-08-17T19:57:29.253+03:00  INFO 4692 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-17T19:57:29.278+03:00  INFO 4692 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@24558113, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3d5e0bf0, org.springframework.security.web.context.SecurityContextHolderFilter@4a36a35d, org.springframework.security.web.header.HeaderWriterFilter@606f0f70, org.springframework.web.filter.CorsFilter@166d576b, org.springframework.security.web.csrf.CsrfFilter@56351c02, org.springframework.security.web.authentication.logout.LogoutFilter@70a24463, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5c65fa69, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@bc88295, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@53153d5e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3435a4e5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@558ed473, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@e2498a3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5b407336, org.springframework.security.web.access.ExceptionTranslationFilter@46c475ba, org.springframework.security.web.access.intercept.AuthorizationFilter@c4455b4]
+2023-08-17T19:57:29.351+03:00  INFO 4692 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:deneme'
+2023-08-17T19:57:29.645+03:00  INFO 4692 --- [main] c.e.springboot.ApplicationTests          : Started ApplicationTests in 6.591 seconds (process running for 7.947)
+2023-08-17T19:57:30.779+03:00  INFO 4692 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-17T19:57:30.782+03:00  INFO 4692 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-08-17T19:57:30.785+03:00  INFO 4692 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
