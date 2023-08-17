@@ -13,7 +13,6 @@
 
 * [Github](https://github.com/emre-unaldi/SpringBootArchitecture)
 
-
 ```sh
 docker
 ```
