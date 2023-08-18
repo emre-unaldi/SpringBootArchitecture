@@ -15,4 +15,14 @@ public class BeanDTO {
     private Long id;
     private String beanName;
     private String beanData;
+
+    public void initialBeanMethod() {
+        log.info("I'm in before the bean starts");
+        System.out.println("Method to run before Bean starts");
+    }
+
+    public void destroyBeanMethod() {
+        log.info("I'm in after the bean is over");
+        System.out.println("Method to run after the bean is finished");
+    }
 }

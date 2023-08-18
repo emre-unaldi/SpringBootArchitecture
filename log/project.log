@@ -123,3 +123,873 @@
 2023-08-18T01:00:54.508+03:00  INFO 15068 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2023-08-18T01:00:54.509+03:00  INFO 15068 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
 2023-08-18T01:00:54.510+03:00  INFO 15068 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-08-18T22:26:49.735+03:00  INFO 7932 --- [restartedMain] com.emreunaldi.springboot.Application    : Starting Application using Java 20.0.1 with PID 7932 (C:\Users\emree\Desktop\JAVA\SpringBoot\target\classes started by emree in C:\Users\emree\Desktop\JAVA\SpringBoot)
+2023-08-18T22:26:49.738+03:00  INFO 7932 --- [restartedMain] com.emreunaldi.springboot.Application    : No active profile set, falling back to 1 default profile: "default"
+2023-08-18T22:26:49.812+03:00  INFO 7932 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-18T22:26:49.812+03:00  INFO 7932 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-18T22:26:51.119+03:00  INFO 7932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-18T22:26:51.146+03:00  INFO 7932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces.
+2023-08-18T22:26:51.832+03:00  INFO 7932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2023-08-18T22:26:51.842+03:00  INFO 7932 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-18T22:26:51.844+03:00  INFO 7932 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-18T22:26:51.903+03:00  INFO 7932 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-18T22:26:51.904+03:00  INFO 7932 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2090 ms
+2023-08-18T22:26:51.989+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-08-18T22:26:52.242+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./memory_persist/deneme user=ROOT
+2023-08-18T22:26:52.245+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-08-18T22:26:52.256+03:00  INFO 7932 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/deneme'
+2023-08-18T22:26:52.409+03:00  INFO 7932 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-18T22:26:52.507+03:00  INFO 7932 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-08-18T22:26:52.510+03:00  INFO 7932 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-08-18T22:26:52.660+03:00  INFO 7932 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-18T22:26:52.810+03:00  INFO 7932 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-18T22:26:52.938+03:00  INFO 7932 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-18T22:26:53.171+03:00  INFO 7932 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-18T22:26:53.176+03:00  INFO 7932 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-18T22:26:53.271+03:00  WARN 7932 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-18T22:26:53.881+03:00  WARN 7932 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-08-18T22:26:54.188+03:00  INFO 7932 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-18T22:26:54.196+03:00  INFO 7932 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-18T22:26:54.279+03:00  INFO 7932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2023-08-18T22:26:54.295+03:00  INFO 7932 --- [restartedMain] com.emreunaldi.springboot.Application    : Started Application in 5.135 seconds (process running for 6.268)
+2023-08-18T22:26:54.884+03:00  INFO 7932 --- [RMI TCP Connection(4)-192.168.1.178] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-18T22:26:54.885+03:00  INFO 7932 --- [RMI TCP Connection(4)-192.168.1.178] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-18T22:26:54.887+03:00  INFO 7932 --- [RMI TCP Connection(4)-192.168.1.178] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-08-18T22:27:38.324+03:00  INFO 7932 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-08-18T22:27:38.346+03:00  INFO 7932 --- [Thread-6] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-08-18T22:27:38.348+03:00  INFO 7932 --- [Thread-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-08-18T22:27:38.358+03:00  INFO 7932 --- [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-18T22:27:38.362+03:00  INFO 7932 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-08-18T22:27:38.371+03:00  INFO 7932 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-08-18T22:27:38.479+03:00  INFO 7932 --- [restartedMain] com.emreunaldi.springboot.Application    : Starting Application using Java 20.0.1 with PID 7932 (C:\Users\emree\Desktop\JAVA\SpringBoot\target\classes started by emree in C:\Users\emree\Desktop\JAVA\SpringBoot)
+2023-08-18T22:27:38.479+03:00  INFO 7932 --- [restartedMain] com.emreunaldi.springboot.Application    : No active profile set, falling back to 1 default profile: "default"
+2023-08-18T22:27:38.887+03:00  INFO 7932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-18T22:27:38.889+03:00  INFO 7932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2023-08-18T22:27:39.002+03:00  INFO 7932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2023-08-18T22:27:39.003+03:00  INFO 7932 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-18T22:27:39.003+03:00  INFO 7932 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-18T22:27:39.034+03:00  INFO 7932 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-18T22:27:39.034+03:00  INFO 7932 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 550 ms
+2023-08-18T22:27:39.076+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-08-18T22:27:39.099+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:file:./memory_persist/deneme user=ROOT
+2023-08-18T22:27:39.099+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-08-18T22:27:39.100+03:00  INFO 7932 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/deneme'
+2023-08-18T22:27:39.185+03:00  INFO 7932 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-18T22:27:39.197+03:00  INFO 7932 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-18T22:27:39.198+03:00  INFO 7932 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-18T22:27:39.205+03:00  INFO 7932 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-18T22:27:39.215+03:00  INFO 7932 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-18T22:27:39.216+03:00  INFO 7932 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-18T22:27:39.224+03:00  WARN 7932 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'beanController': Unsatisfied dependency expressed through field 'beanConfig': No qualifying bean of type 'com.emreunaldi.springboot.Bean.BeanConfig' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-08-18T22:27:39.225+03:00  INFO 7932 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-18T22:27:39.225+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-08-18T22:27:39.237+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-08-18T22:27:39.238+03:00  INFO 7932 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-08-18T22:27:39.256+03:00  INFO 7932 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-08-18T22:27:39.296+03:00 ERROR 7932 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field beanConfig in com.emreunaldi.springboot.controller.BeanController required a bean of type 'com.emreunaldi.springboot.Bean.BeanConfig' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.emreunaldi.springboot.Bean.BeanConfig' in your configuration.
+
+2023-08-18T22:27:40.767+03:00  INFO 7932 --- [restartedMain] com.emreunaldi.springboot.Application    : Starting Application using Java 20.0.1 with PID 7932 (C:\Users\emree\Desktop\JAVA\SpringBoot\target\classes started by emree in C:\Users\emree\Desktop\JAVA\SpringBoot)
+2023-08-18T22:27:40.767+03:00  INFO 7932 --- [restartedMain] com.emreunaldi.springboot.Application    : No active profile set, falling back to 1 default profile: "default"
+2023-08-18T22:27:41.205+03:00  INFO 7932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-18T22:27:41.208+03:00  INFO 7932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2023-08-18T22:27:41.369+03:00  INFO 7932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2023-08-18T22:27:41.370+03:00  INFO 7932 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-18T22:27:41.370+03:00  INFO 7932 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-18T22:27:41.391+03:00  INFO 7932 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-08-18T22:27:41.393+03:00  INFO 7932 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 624 ms
+2023-08-18T22:27:41.440+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2023-08-18T22:27:41.453+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection conn13: url=jdbc:h2:file:./memory_persist/deneme user=ROOT
+2023-08-18T22:27:41.454+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2023-08-18T22:27:41.454+03:00  INFO 7932 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/deneme'
+2023-08-18T22:27:41.518+03:00  INFO 7932 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-18T22:27:41.529+03:00  INFO 7932 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-18T22:27:41.530+03:00  INFO 7932 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-18T22:27:41.536+03:00  INFO 7932 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-18T22:27:41.546+03:00  INFO 7932 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-18T22:27:41.547+03:00  INFO 7932 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-18T22:27:41.575+03:00  WARN 7932 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-18T22:27:41.928+03:00  WARN 7932 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-08-18T22:27:42.047+03:00  INFO 7932 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-18T22:27:42.050+03:00  INFO 7932 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-18T22:27:42.080+03:00  INFO 7932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2023-08-18T22:27:42.095+03:00  INFO 7932 --- [restartedMain] com.emreunaldi.springboot.Application    : Started Application in 1.354 seconds (process running for 54.069)
+2023-08-18T22:27:42.099+03:00  INFO 7932 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-08-18T22:29:21.069+03:00  INFO 7932 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 1 deletion, 1 modification)
+2023-08-18T22:29:21.090+03:00  INFO 7932 --- [Thread-8] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-08-18T22:29:21.096+03:00  INFO 7932 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-18T22:29:21.097+03:00  INFO 7932 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2023-08-18T22:29:21.113+03:00  INFO 7932 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2023-08-18T22:29:21.227+03:00  INFO 7932 --- [restartedMain] com.emreunaldi.springboot.Application    : Starting Application using Java 20.0.1 with PID 7932 (C:\Users\emree\Desktop\JAVA\SpringBoot\target\classes started by emree in C:\Users\emree\Desktop\JAVA\SpringBoot)
+2023-08-18T22:29:21.227+03:00  INFO 7932 --- [restartedMain] com.emreunaldi.springboot.Application    : No active profile set, falling back to 1 default profile: "default"
+2023-08-18T22:29:21.867+03:00  INFO 7932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-18T22:29:21.878+03:00  INFO 7932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2023-08-18T22:29:22.193+03:00  INFO 7932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2023-08-18T22:29:22.194+03:00  INFO 7932 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-18T22:29:22.194+03:00  INFO 7932 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-18T22:29:22.244+03:00  INFO 7932 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-08-18T22:29:22.244+03:00  INFO 7932 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1013 ms
+2023-08-18T22:29:22.341+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2023-08-18T22:29:22.359+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection conn23: url=jdbc:h2:file:./memory_persist/deneme user=ROOT
+2023-08-18T22:29:22.360+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2023-08-18T22:29:22.360+03:00  INFO 7932 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/deneme'
+2023-08-18T22:29:22.475+03:00  INFO 7932 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-18T22:29:22.497+03:00  INFO 7932 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-18T22:29:22.497+03:00  INFO 7932 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-18T22:29:22.507+03:00  INFO 7932 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-18T22:29:22.524+03:00  INFO 7932 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-18T22:29:22.524+03:00  INFO 7932 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-18T22:29:22.542+03:00  WARN 7932 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'beanController': Unsatisfied dependency expressed through field 'beanConfig': No qualifying bean of type 'com.emreunaldi.springboot.Bean.BeanConfig' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-08-18T22:29:22.543+03:00  INFO 7932 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-18T22:29:22.544+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2023-08-18T22:29:22.614+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2023-08-18T22:29:22.616+03:00  INFO 7932 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-08-18T22:29:22.643+03:00  INFO 7932 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-08-18T22:29:22.654+03:00 ERROR 7932 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field beanConfig in com.emreunaldi.springboot.controller.BeanController required a bean of type 'com.emreunaldi.springboot.Bean.BeanConfig' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.emreunaldi.springboot.Bean.BeanConfig' in your configuration.
+
+2023-08-18T22:29:24.113+03:00  INFO 7932 --- [restartedMain] com.emreunaldi.springboot.Application    : Starting Application using Java 20.0.1 with PID 7932 (C:\Users\emree\Desktop\JAVA\SpringBoot\target\classes started by emree in C:\Users\emree\Desktop\JAVA\SpringBoot)
+2023-08-18T22:29:24.114+03:00  INFO 7932 --- [restartedMain] com.emreunaldi.springboot.Application    : No active profile set, falling back to 1 default profile: "default"
+2023-08-18T22:29:24.706+03:00  INFO 7932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-18T22:29:24.710+03:00  INFO 7932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2023-08-18T22:29:24.891+03:00  INFO 7932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2023-08-18T22:29:24.892+03:00  INFO 7932 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-18T22:29:24.892+03:00  INFO 7932 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-18T22:29:24.925+03:00  INFO 7932 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-08-18T22:29:24.925+03:00  INFO 7932 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 808 ms
+2023-08-18T22:29:25.014+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2023-08-18T22:29:25.026+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection conn29: url=jdbc:h2:file:./memory_persist/deneme user=ROOT
+2023-08-18T22:29:25.027+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2023-08-18T22:29:25.027+03:00  INFO 7932 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/deneme'
+2023-08-18T22:29:25.073+03:00  INFO 7932 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-18T22:29:25.082+03:00  INFO 7932 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-18T22:29:25.083+03:00  INFO 7932 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-18T22:29:25.089+03:00  INFO 7932 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-18T22:29:25.099+03:00  INFO 7932 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-18T22:29:25.100+03:00  INFO 7932 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-18T22:29:25.159+03:00  WARN 7932 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-18T22:29:25.717+03:00  WARN 7932 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-08-18T22:29:25.965+03:00  INFO 7932 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-18T22:29:25.972+03:00  INFO 7932 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-18T22:29:26.000+03:00  INFO 7932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2023-08-18T22:29:26.016+03:00  INFO 7932 --- [restartedMain] com.emreunaldi.springboot.Application    : Started Application in 1.941 seconds (process running for 157.99)
+2023-08-18T22:29:26.021+03:00  INFO 7932 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-08-18T22:29:36.491+03:00  INFO 7932 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-08-18T22:29:36.503+03:00  INFO 7932 --- [Thread-15] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-08-18T22:29:36.507+03:00  INFO 7932 --- [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-18T22:29:36.509+03:00  INFO 7932 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2023-08-18T22:29:36.516+03:00  INFO 7932 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2023-08-18T22:29:36.611+03:00  INFO 7932 --- [restartedMain] com.emreunaldi.springboot.Application    : Starting Application using Java 20.0.1 with PID 7932 (C:\Users\emree\Desktop\JAVA\SpringBoot\target\classes started by emree in C:\Users\emree\Desktop\JAVA\SpringBoot)
+2023-08-18T22:29:36.612+03:00  INFO 7932 --- [restartedMain] com.emreunaldi.springboot.Application    : No active profile set, falling back to 1 default profile: "default"
+2023-08-18T22:29:37.103+03:00  INFO 7932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-18T22:29:37.106+03:00  INFO 7932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2023-08-18T22:29:37.335+03:00  INFO 7932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2023-08-18T22:29:37.337+03:00  INFO 7932 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-18T22:29:37.337+03:00  INFO 7932 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-18T22:29:37.382+03:00  INFO 7932 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-08-18T22:29:37.383+03:00  INFO 7932 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 766 ms
+2023-08-18T22:29:37.451+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2023-08-18T22:29:37.463+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection conn39: url=jdbc:h2:file:./memory_persist/deneme user=ROOT
+2023-08-18T22:29:37.464+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2023-08-18T22:29:37.465+03:00  INFO 7932 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/deneme'
+2023-08-18T22:29:37.530+03:00  INFO 7932 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-18T22:29:37.541+03:00  INFO 7932 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-18T22:29:37.541+03:00  INFO 7932 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-18T22:29:37.551+03:00  INFO 7932 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-18T22:29:37.569+03:00  INFO 7932 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-18T22:29:37.570+03:00  INFO 7932 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-18T22:29:37.586+03:00  WARN 7932 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'beanController': Unsatisfied dependency expressed through field 'beanConfig': No qualifying bean of type 'com.emreunaldi.springboot.Bean.BeanConfig' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-08-18T22:29:37.587+03:00  INFO 7932 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-18T22:29:37.587+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2023-08-18T22:29:37.599+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2023-08-18T22:29:37.600+03:00  INFO 7932 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-08-18T22:29:37.618+03:00  INFO 7932 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-08-18T22:29:37.625+03:00 ERROR 7932 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field beanConfig in com.emreunaldi.springboot.controller.BeanController required a bean of type 'com.emreunaldi.springboot.Bean.BeanConfig' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.emreunaldi.springboot.Bean.BeanConfig' in your configuration.
+
+2023-08-18T22:29:39.075+03:00  INFO 7932 --- [restartedMain] com.emreunaldi.springboot.Application    : Starting Application using Java 20.0.1 with PID 7932 (C:\Users\emree\Desktop\JAVA\SpringBoot\target\classes started by emree in C:\Users\emree\Desktop\JAVA\SpringBoot)
+2023-08-18T22:29:39.075+03:00  INFO 7932 --- [restartedMain] com.emreunaldi.springboot.Application    : No active profile set, falling back to 1 default profile: "default"
+2023-08-18T22:29:39.427+03:00  INFO 7932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-18T22:29:39.429+03:00  INFO 7932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2023-08-18T22:29:39.527+03:00  INFO 7932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2023-08-18T22:29:39.527+03:00  INFO 7932 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-18T22:29:39.528+03:00  INFO 7932 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-18T22:29:39.547+03:00  INFO 7932 --- [restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-08-18T22:29:39.547+03:00  INFO 7932 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 470 ms
+2023-08-18T22:29:39.577+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2023-08-18T22:29:39.585+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Added connection conn42: url=jdbc:h2:file:./memory_persist/deneme user=ROOT
+2023-08-18T22:29:39.586+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2023-08-18T22:29:39.586+03:00  INFO 7932 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/deneme'
+2023-08-18T22:29:39.629+03:00  INFO 7932 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-18T22:29:39.637+03:00  INFO 7932 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-18T22:29:39.637+03:00  INFO 7932 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-18T22:29:39.643+03:00  INFO 7932 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-18T22:29:39.653+03:00  INFO 7932 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-18T22:29:39.653+03:00  INFO 7932 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-18T22:29:39.691+03:00  WARN 7932 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-18T22:29:39.987+03:00  WARN 7932 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-08-18T22:29:40.068+03:00  INFO 7932 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-18T22:29:40.071+03:00  INFO 7932 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-18T22:29:40.093+03:00  INFO 7932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2023-08-18T22:29:40.103+03:00  INFO 7932 --- [restartedMain] com.emreunaldi.springboot.Application    : Started Application in 1.051 seconds (process running for 172.077)
+2023-08-18T22:29:40.105+03:00  INFO 7932 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-08-18T22:29:52.074+03:00  INFO 7932 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 1 deletion, 1 modification)
+2023-08-18T22:29:52.089+03:00  INFO 7932 --- [Thread-22] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-08-18T22:29:52.094+03:00  INFO 7932 --- [Thread-22] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-18T22:29:52.094+03:00  INFO 7932 --- [Thread-22] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2023-08-18T22:29:52.099+03:00  INFO 7932 --- [Thread-22] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2023-08-18T22:29:52.181+03:00  INFO 7932 --- [restartedMain] com.emreunaldi.springboot.Application    : Starting Application using Java 20.0.1 with PID 7932 (C:\Users\emree\Desktop\JAVA\SpringBoot\target\classes started by emree in C:\Users\emree\Desktop\JAVA\SpringBoot)
+2023-08-18T22:29:52.181+03:00  INFO 7932 --- [restartedMain] com.emreunaldi.springboot.Application    : No active profile set, falling back to 1 default profile: "default"
+2023-08-18T22:29:52.589+03:00  INFO 7932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-18T22:29:52.593+03:00  INFO 7932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2023-08-18T22:29:52.809+03:00  INFO 7932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2023-08-18T22:29:52.809+03:00  INFO 7932 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-18T22:29:52.809+03:00  INFO 7932 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-18T22:29:52.843+03:00  INFO 7932 --- [restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-08-18T22:29:52.843+03:00  INFO 7932 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 660 ms
+2023-08-18T22:29:52.951+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2023-08-18T22:29:52.963+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-8 - Added connection conn52: url=jdbc:h2:file:./memory_persist/deneme user=ROOT
+2023-08-18T22:29:52.963+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2023-08-18T22:29:52.963+03:00  INFO 7932 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/deneme'
+2023-08-18T22:29:53.022+03:00  INFO 7932 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-18T22:29:53.033+03:00  INFO 7932 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-18T22:29:53.034+03:00  INFO 7932 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-18T22:29:53.042+03:00  INFO 7932 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-18T22:29:53.052+03:00  INFO 7932 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-18T22:29:53.052+03:00  INFO 7932 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-18T22:29:53.062+03:00  WARN 7932 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'beanController': Unsatisfied dependency expressed through field 'beanConfig': No qualifying bean of type 'com.emreunaldi.springboot.Bean.BeanConfig' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-08-18T22:29:53.062+03:00  INFO 7932 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-18T22:29:53.063+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2023-08-18T22:29:53.087+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2023-08-18T22:29:53.088+03:00  INFO 7932 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-08-18T22:29:53.111+03:00  INFO 7932 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-08-18T22:29:53.121+03:00 ERROR 7932 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field beanConfig in com.emreunaldi.springboot.controller.BeanController required a bean of type 'com.emreunaldi.springboot.Bean.BeanConfig' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.emreunaldi.springboot.Bean.BeanConfig' in your configuration.
+
+2023-08-18T22:29:54.587+03:00  INFO 7932 --- [restartedMain] com.emreunaldi.springboot.Application    : Starting Application using Java 20.0.1 with PID 7932 (C:\Users\emree\Desktop\JAVA\SpringBoot\target\classes started by emree in C:\Users\emree\Desktop\JAVA\SpringBoot)
+2023-08-18T22:29:54.587+03:00  INFO 7932 --- [restartedMain] com.emreunaldi.springboot.Application    : No active profile set, falling back to 1 default profile: "default"
+2023-08-18T22:29:54.932+03:00  INFO 7932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-18T22:29:54.935+03:00  INFO 7932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2023-08-18T22:29:55.017+03:00  INFO 7932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2023-08-18T22:29:55.018+03:00  INFO 7932 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-18T22:29:55.018+03:00  INFO 7932 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-18T22:29:55.038+03:00  INFO 7932 --- [restartedMain] o.a.c.c.C.[Tomcat-4].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-08-18T22:29:55.038+03:00  INFO 7932 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 447 ms
+2023-08-18T22:29:55.059+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2023-08-18T22:29:55.066+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Added connection conn53: url=jdbc:h2:file:./memory_persist/deneme user=ROOT
+2023-08-18T22:29:55.066+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2023-08-18T22:29:55.066+03:00  INFO 7932 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/deneme'
+2023-08-18T22:29:55.103+03:00  INFO 7932 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-18T22:29:55.108+03:00  INFO 7932 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-18T22:29:55.108+03:00  INFO 7932 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-18T22:29:55.111+03:00  INFO 7932 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-18T22:29:55.122+03:00  INFO 7932 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-18T22:29:55.122+03:00  INFO 7932 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-18T22:29:55.146+03:00  WARN 7932 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-18T22:29:55.459+03:00  WARN 7932 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-08-18T22:29:55.612+03:00  INFO 7932 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-18T22:29:55.615+03:00  INFO 7932 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-18T22:29:55.637+03:00  INFO 7932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2023-08-18T22:29:55.646+03:00  INFO 7932 --- [restartedMain] com.emreunaldi.springboot.Application    : Started Application in 1.096 seconds (process running for 187.619)
+2023-08-18T22:29:55.648+03:00  INFO 7932 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-08-18T22:30:02.116+03:00  INFO 7932 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 1 deletion, 1 modification)
+2023-08-18T22:30:02.129+03:00  INFO 7932 --- [Thread-29] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-08-18T22:30:02.137+03:00  INFO 7932 --- [Thread-29] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-18T22:30:02.138+03:00  INFO 7932 --- [Thread-29] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
+2023-08-18T22:30:02.143+03:00  INFO 7932 --- [Thread-29] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
+2023-08-18T22:30:02.235+03:00  INFO 7932 --- [restartedMain] com.emreunaldi.springboot.Application    : Starting Application using Java 20.0.1 with PID 7932 (C:\Users\emree\Desktop\JAVA\SpringBoot\target\classes started by emree in C:\Users\emree\Desktop\JAVA\SpringBoot)
+2023-08-18T22:30:02.236+03:00  INFO 7932 --- [restartedMain] com.emreunaldi.springboot.Application    : No active profile set, falling back to 1 default profile: "default"
+2023-08-18T22:30:02.785+03:00  INFO 7932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-18T22:30:02.788+03:00  INFO 7932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2023-08-18T22:30:03.000+03:00  INFO 7932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2023-08-18T22:30:03.001+03:00  INFO 7932 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-18T22:30:03.001+03:00  INFO 7932 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-18T22:30:03.030+03:00  INFO 7932 --- [restartedMain] o.a.c.c.C.[Tomcat-4].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-08-18T22:30:03.031+03:00  INFO 7932 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 792 ms
+2023-08-18T22:30:03.083+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Starting...
+2023-08-18T22:30:03.098+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-10 - Added connection conn63: url=jdbc:h2:file:./memory_persist/deneme user=ROOT
+2023-08-18T22:30:03.099+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Start completed.
+2023-08-18T22:30:03.099+03:00  INFO 7932 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/deneme'
+2023-08-18T22:30:03.170+03:00  INFO 7932 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-18T22:30:03.181+03:00  INFO 7932 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-18T22:30:03.181+03:00  INFO 7932 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-18T22:30:03.190+03:00  INFO 7932 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-18T22:30:03.216+03:00  INFO 7932 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-18T22:30:03.216+03:00  INFO 7932 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-18T22:30:03.231+03:00  WARN 7932 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'beanController': Unsatisfied dependency expressed through field 'beanConfig': No qualifying bean of type 'com.emreunaldi.springboot.Bean.BeanConfig' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-08-18T22:30:03.231+03:00  INFO 7932 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-18T22:30:03.232+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown initiated...
+2023-08-18T22:30:03.318+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown completed.
+2023-08-18T22:30:03.319+03:00  INFO 7932 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-08-18T22:30:03.351+03:00  INFO 7932 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-08-18T22:30:03.360+03:00 ERROR 7932 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field beanConfig in com.emreunaldi.springboot.controller.BeanController required a bean of type 'com.emreunaldi.springboot.Bean.BeanConfig' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.emreunaldi.springboot.Bean.BeanConfig' in your configuration.
+
+2023-08-18T22:30:04.808+03:00  INFO 7932 --- [restartedMain] com.emreunaldi.springboot.Application    : Starting Application using Java 20.0.1 with PID 7932 (C:\Users\emree\Desktop\JAVA\SpringBoot\target\classes started by emree in C:\Users\emree\Desktop\JAVA\SpringBoot)
+2023-08-18T22:30:04.810+03:00  INFO 7932 --- [restartedMain] com.emreunaldi.springboot.Application    : No active profile set, falling back to 1 default profile: "default"
+2023-08-18T22:30:05.212+03:00  INFO 7932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-18T22:30:05.213+03:00  INFO 7932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2023-08-18T22:30:05.299+03:00  INFO 7932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2023-08-18T22:30:05.300+03:00  INFO 7932 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-18T22:30:05.300+03:00  INFO 7932 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-18T22:30:05.316+03:00  INFO 7932 --- [restartedMain] o.a.c.c.C.[Tomcat-5].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-08-18T22:30:05.316+03:00  INFO 7932 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 505 ms
+2023-08-18T22:30:05.336+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Starting...
+2023-08-18T22:30:05.345+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-11 - Added connection conn66: url=jdbc:h2:file:./memory_persist/deneme user=ROOT
+2023-08-18T22:30:05.345+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Start completed.
+2023-08-18T22:30:05.345+03:00  INFO 7932 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/deneme'
+2023-08-18T22:30:05.373+03:00  INFO 7932 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-18T22:30:05.382+03:00  INFO 7932 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-18T22:30:05.382+03:00  INFO 7932 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-18T22:30:05.386+03:00  INFO 7932 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-18T22:30:05.391+03:00  INFO 7932 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-18T22:30:05.391+03:00  INFO 7932 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-18T22:30:05.408+03:00  WARN 7932 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-18T22:30:05.667+03:00  WARN 7932 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-08-18T22:30:05.739+03:00  INFO 7932 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-18T22:30:05.742+03:00  INFO 7932 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-18T22:30:05.762+03:00  INFO 7932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2023-08-18T22:30:05.772+03:00  INFO 7932 --- [restartedMain] com.emreunaldi.springboot.Application    : Started Application in 0.984 seconds (process running for 197.745)
+2023-08-18T22:30:05.773+03:00  INFO 7932 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-08-18T22:30:44.844+03:00  INFO 7932 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 1 deletion, 1 modification)
+2023-08-18T22:30:44.860+03:00  INFO 7932 --- [Thread-36] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-08-18T22:30:44.864+03:00  INFO 7932 --- [Thread-36] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-18T22:30:44.865+03:00  INFO 7932 --- [Thread-36] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown initiated...
+2023-08-18T22:30:44.883+03:00  INFO 7932 --- [Thread-36] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown completed.
+2023-08-18T22:30:44.987+03:00  INFO 7932 --- [restartedMain] com.emreunaldi.springboot.Application    : Starting Application using Java 20.0.1 with PID 7932 (C:\Users\emree\Desktop\JAVA\SpringBoot\target\classes started by emree in C:\Users\emree\Desktop\JAVA\SpringBoot)
+2023-08-18T22:30:44.987+03:00  INFO 7932 --- [restartedMain] com.emreunaldi.springboot.Application    : No active profile set, falling back to 1 default profile: "default"
+2023-08-18T22:30:45.473+03:00  INFO 7932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-18T22:30:45.475+03:00  INFO 7932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2023-08-18T22:30:45.617+03:00  INFO 7932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2023-08-18T22:30:45.617+03:00  INFO 7932 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-18T22:30:45.618+03:00  INFO 7932 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-18T22:30:45.645+03:00  INFO 7932 --- [restartedMain] o.a.c.c.C.[Tomcat-5].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-08-18T22:30:45.645+03:00  INFO 7932 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 653 ms
+2023-08-18T22:30:45.727+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Starting...
+2023-08-18T22:30:45.740+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-12 - Added connection conn76: url=jdbc:h2:file:./memory_persist/deneme user=ROOT
+2023-08-18T22:30:45.740+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Start completed.
+2023-08-18T22:30:45.740+03:00  INFO 7932 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/deneme'
+2023-08-18T22:30:45.799+03:00  INFO 7932 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-18T22:30:45.806+03:00  INFO 7932 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-18T22:30:45.807+03:00  INFO 7932 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-18T22:30:45.815+03:00  INFO 7932 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-18T22:30:45.822+03:00  INFO 7932 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-18T22:30:45.822+03:00  INFO 7932 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-18T22:30:45.830+03:00  WARN 7932 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'beanController': Unsatisfied dependency expressed through field 'beanConfig': No qualifying bean of type 'com.emreunaldi.springboot.Bean.BeanConfig' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-08-18T22:30:45.830+03:00  INFO 7932 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-18T22:30:45.831+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown initiated...
+2023-08-18T22:30:45.849+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown completed.
+2023-08-18T22:30:45.850+03:00  INFO 7932 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-08-18T22:30:45.866+03:00  INFO 7932 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-08-18T22:30:45.872+03:00 ERROR 7932 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field beanConfig in com.emreunaldi.springboot.controller.BeanController required a bean of type 'com.emreunaldi.springboot.Bean.BeanConfig' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.emreunaldi.springboot.Bean.BeanConfig' in your configuration.
+
+2023-08-18T22:31:16.878+03:00  INFO 7932 --- [restartedMain] com.emreunaldi.springboot.Application    : Starting Application using Java 20.0.1 with PID 7932 (C:\Users\emree\Desktop\JAVA\SpringBoot\target\classes started by emree in C:\Users\emree\Desktop\JAVA\SpringBoot)
+2023-08-18T22:31:16.879+03:00  INFO 7932 --- [restartedMain] com.emreunaldi.springboot.Application    : No active profile set, falling back to 1 default profile: "default"
+2023-08-18T22:31:17.181+03:00  INFO 7932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-18T22:31:17.184+03:00  INFO 7932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2023-08-18T22:31:17.315+03:00  INFO 7932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2023-08-18T22:31:17.316+03:00  INFO 7932 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-18T22:31:17.316+03:00  INFO 7932 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-18T22:31:17.346+03:00  INFO 7932 --- [restartedMain] o.a.c.c.C.[Tomcat-6].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-08-18T22:31:17.346+03:00  INFO 7932 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 466 ms
+2023-08-18T22:31:17.399+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Starting...
+2023-08-18T22:31:17.422+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-13 - Added connection conn77: url=jdbc:h2:file:./memory_persist/deneme user=ROOT
+2023-08-18T22:31:17.422+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Start completed.
+2023-08-18T22:31:17.422+03:00  INFO 7932 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/deneme'
+2023-08-18T22:31:17.496+03:00  INFO 7932 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-18T22:31:17.509+03:00  INFO 7932 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-18T22:31:17.509+03:00  INFO 7932 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-18T22:31:17.514+03:00  INFO 7932 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-18T22:31:17.523+03:00  INFO 7932 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-18T22:31:17.523+03:00  INFO 7932 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-18T22:31:17.530+03:00  WARN 7932 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'beanController' defined in file [C:\Users\emree\Desktop\JAVA\SpringBoot\target\classes\com\emreunaldi\springboot\controller\BeanController.class]: Post-processing of merged bean definition failed
+2023-08-18T22:31:17.530+03:00  INFO 7932 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-18T22:31:17.530+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown initiated...
+2023-08-18T22:31:17.540+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown completed.
+2023-08-18T22:31:17.540+03:00  INFO 7932 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-08-18T22:31:17.560+03:00  INFO 7932 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-08-18T22:31:17.563+03:00 ERROR 7932 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'beanController' defined in file [C:\Users\emree\Desktop\JAVA\SpringBoot\target\classes\com\emreunaldi\springboot\controller\BeanController.class]: Post-processing of merged bean definition failed
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:575) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-3.1.2.jar:3.1.2]
+	at com.emreunaldi.springboot.Application.main(Application.java:12) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.1.2.jar:3.1.2]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.emreunaldi.springboot.controller.BeanController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@24defd08]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:732) ~[spring-core-6.0.11.jar:6.0.11]
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:664) ~[spring-core-6.0.11.jar:6.0.11]
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.buildPersistenceMetadata(PersistenceAnnotationBeanPostProcessor.java:436) ~[spring-orm-6.0.11.jar:6.0.11]
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.findPersistenceMetadata(PersistenceAnnotationBeanPostProcessor.java:417) ~[spring-orm-6.0.11.jar:6.0.11]
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.findInjectionMetadata(PersistenceAnnotationBeanPostProcessor.java:371) ~[spring-orm-6.0.11.jar:6.0.11]
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(PersistenceAnnotationBeanPostProcessor.java:353) ~[spring-orm-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1083) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:572) ~[spring-beans-6.0.11.jar:6.0.11]
+	... 18 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/emreunaldi/springboot/Bean/BeanConfig
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3397) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2468) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:727) ~[spring-core-6.0.11.jar:6.0.11]
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.emreunaldi.springboot.Bean.BeanConfig
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:496) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:475) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121) ~[spring-boot-devtools-3.1.2.jar:3.1.2]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[na:na]
+	... 29 common frames omitted
+
+2023-08-18T22:31:19.050+03:00  INFO 7932 --- [restartedMain] com.emreunaldi.springboot.Application    : Starting Application using Java 20.0.1 with PID 7932 (C:\Users\emree\Desktop\JAVA\SpringBoot\target\classes started by emree in C:\Users\emree\Desktop\JAVA\SpringBoot)
+2023-08-18T22:31:19.051+03:00  INFO 7932 --- [restartedMain] com.emreunaldi.springboot.Application    : No active profile set, falling back to 1 default profile: "default"
+2023-08-18T22:31:19.450+03:00  INFO 7932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-18T22:31:19.451+03:00  INFO 7932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2023-08-18T22:31:19.576+03:00  INFO 7932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2023-08-18T22:31:19.577+03:00  INFO 7932 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-18T22:31:19.577+03:00  INFO 7932 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-18T22:31:19.595+03:00  INFO 7932 --- [restartedMain] o.a.c.c.C.[Tomcat-7].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-08-18T22:31:19.595+03:00  INFO 7932 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 540 ms
+2023-08-18T22:31:19.622+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Starting...
+2023-08-18T22:31:19.629+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-14 - Added connection conn79: url=jdbc:h2:file:./memory_persist/deneme user=ROOT
+2023-08-18T22:31:19.630+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Start completed.
+2023-08-18T22:31:19.630+03:00  INFO 7932 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/deneme'
+2023-08-18T22:31:19.673+03:00  INFO 7932 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-18T22:31:19.681+03:00  INFO 7932 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-18T22:31:19.681+03:00  INFO 7932 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-18T22:31:19.686+03:00  INFO 7932 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-18T22:31:19.694+03:00  INFO 7932 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-18T22:31:19.694+03:00  INFO 7932 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-18T22:31:19.733+03:00  WARN 7932 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-18T22:31:20.063+03:00  WARN 7932 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-08-18T22:31:20.172+03:00  INFO 7932 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-18T22:31:20.175+03:00  INFO 7932 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-18T22:31:20.199+03:00  INFO 7932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2023-08-18T22:31:20.210+03:00  INFO 7932 --- [restartedMain] com.emreunaldi.springboot.Application    : Started Application in 1.195 seconds (process running for 272.183)
+2023-08-18T22:31:20.212+03:00  INFO 7932 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-08-18T22:31:52.538+03:00  INFO 7932 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 1 deletion, 1 modification)
+2023-08-18T22:31:52.548+03:00  INFO 7932 --- [Thread-43] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-08-18T22:31:52.552+03:00  INFO 7932 --- [Thread-43] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-18T22:31:52.553+03:00  INFO 7932 --- [Thread-43] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Shutdown initiated...
+2023-08-18T22:31:52.556+03:00  INFO 7932 --- [Thread-43] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Shutdown completed.
+2023-08-18T22:31:52.637+03:00  INFO 7932 --- [restartedMain] com.emreunaldi.springboot.Application    : Starting Application using Java 20.0.1 with PID 7932 (C:\Users\emree\Desktop\JAVA\SpringBoot\target\classes started by emree in C:\Users\emree\Desktop\JAVA\SpringBoot)
+2023-08-18T22:31:52.637+03:00  INFO 7932 --- [restartedMain] com.emreunaldi.springboot.Application    : No active profile set, falling back to 1 default profile: "default"
+2023-08-18T22:31:53.008+03:00  INFO 7932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-18T22:31:53.009+03:00  INFO 7932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2023-08-18T22:31:53.115+03:00  INFO 7932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2023-08-18T22:31:53.117+03:00  INFO 7932 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-18T22:31:53.118+03:00  INFO 7932 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-18T22:31:53.144+03:00  INFO 7932 --- [restartedMain] o.a.c.c.C.[Tomcat-7].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-08-18T22:31:53.144+03:00  INFO 7932 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 505 ms
+2023-08-18T22:31:53.207+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Starting...
+2023-08-18T22:31:53.222+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-15 - Added connection conn89: url=jdbc:h2:file:./memory_persist/deneme user=ROOT
+2023-08-18T22:31:53.222+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Start completed.
+2023-08-18T22:31:53.223+03:00  INFO 7932 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/deneme'
+2023-08-18T22:31:53.309+03:00  INFO 7932 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-18T22:31:53.320+03:00  INFO 7932 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-18T22:31:53.320+03:00  INFO 7932 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-18T22:31:53.325+03:00  INFO 7932 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-18T22:31:53.331+03:00  INFO 7932 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-18T22:31:53.332+03:00  INFO 7932 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-18T22:31:53.341+03:00  WARN 7932 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'beanController': Unsatisfied dependency expressed through field 'beanConfig': No qualifying bean of type 'com.emreunaldi.springboot.Bean.BeanConfig' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-08-18T22:31:53.342+03:00  INFO 7932 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-18T22:31:53.342+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Shutdown initiated...
+2023-08-18T22:31:53.357+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Shutdown completed.
+2023-08-18T22:31:53.357+03:00  INFO 7932 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-08-18T22:31:53.374+03:00  INFO 7932 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-08-18T22:31:53.386+03:00 ERROR 7932 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field beanConfig in com.emreunaldi.springboot.controller.BeanController required a bean of type 'com.emreunaldi.springboot.Bean.BeanConfig' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.emreunaldi.springboot.Bean.BeanConfig' in your configuration.
+
+2023-08-18T22:31:54.855+03:00  INFO 7932 --- [restartedMain] com.emreunaldi.springboot.Application    : Starting Application using Java 20.0.1 with PID 7932 (C:\Users\emree\Desktop\JAVA\SpringBoot\target\classes started by emree in C:\Users\emree\Desktop\JAVA\SpringBoot)
+2023-08-18T22:31:54.856+03:00  INFO 7932 --- [restartedMain] com.emreunaldi.springboot.Application    : No active profile set, falling back to 1 default profile: "default"
+2023-08-18T22:31:55.296+03:00  INFO 7932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-18T22:31:55.298+03:00  INFO 7932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2023-08-18T22:31:55.413+03:00  INFO 7932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2023-08-18T22:31:55.415+03:00  INFO 7932 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-18T22:31:55.415+03:00  INFO 7932 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-18T22:31:55.438+03:00  INFO 7932 --- [restartedMain] o.a.c.c.C.[Tomcat-8].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-08-18T22:31:55.438+03:00  INFO 7932 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 581 ms
+2023-08-18T22:31:55.478+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Starting...
+2023-08-18T22:31:55.486+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-16 - Added connection conn91: url=jdbc:h2:file:./memory_persist/deneme user=ROOT
+2023-08-18T22:31:55.486+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Start completed.
+2023-08-18T22:31:55.486+03:00  INFO 7932 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/deneme'
+2023-08-18T22:31:55.556+03:00  INFO 7932 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-18T22:31:55.565+03:00  INFO 7932 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-18T22:31:55.566+03:00  INFO 7932 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-18T22:31:55.576+03:00  INFO 7932 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-18T22:31:55.587+03:00  INFO 7932 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-18T22:31:55.587+03:00  INFO 7932 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-18T22:31:55.636+03:00  WARN 7932 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-18T22:31:55.925+03:00  WARN 7932 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-08-18T22:31:56.038+03:00  INFO 7932 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-18T22:31:56.042+03:00  INFO 7932 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-18T22:31:56.075+03:00  INFO 7932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2023-08-18T22:31:56.089+03:00  INFO 7932 --- [restartedMain] com.emreunaldi.springboot.Application    : Started Application in 1.274 seconds (process running for 308.062)
+2023-08-18T22:31:56.091+03:00  INFO 7932 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-08-18T22:32:42.336+03:00  INFO 7932 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-08-18T22:32:42.352+03:00  INFO 7932 --- [Thread-53] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-08-18T22:32:42.357+03:00  INFO 7932 --- [Thread-53] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-18T22:32:42.359+03:00  INFO 7932 --- [Thread-53] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Shutdown initiated...
+2023-08-18T22:32:42.370+03:00  INFO 7932 --- [Thread-53] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Shutdown completed.
+2023-08-18T22:32:42.470+03:00  INFO 7932 --- [restartedMain] com.emreunaldi.springboot.Application    : Starting Application using Java 20.0.1 with PID 7932 (C:\Users\emree\Desktop\JAVA\SpringBoot\target\classes started by emree in C:\Users\emree\Desktop\JAVA\SpringBoot)
+2023-08-18T22:32:42.471+03:00  INFO 7932 --- [restartedMain] com.emreunaldi.springboot.Application    : No active profile set, falling back to 1 default profile: "default"
+2023-08-18T22:32:42.803+03:00  INFO 7932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-18T22:32:42.804+03:00  INFO 7932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2023-08-18T22:32:42.969+03:00  INFO 7932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2023-08-18T22:32:42.970+03:00  INFO 7932 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-18T22:32:42.970+03:00  INFO 7932 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-18T22:32:42.989+03:00  INFO 7932 --- [restartedMain] o.a.c.c.C.[Tomcat-8].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-08-18T22:32:42.989+03:00  INFO 7932 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 513 ms
+2023-08-18T22:32:43.023+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Starting...
+2023-08-18T22:32:43.037+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-17 - Added connection conn101: url=jdbc:h2:file:./memory_persist/deneme user=ROOT
+2023-08-18T22:32:43.037+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Start completed.
+2023-08-18T22:32:43.037+03:00  INFO 7932 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/deneme'
+2023-08-18T22:32:43.078+03:00  INFO 7932 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-18T22:32:43.083+03:00  INFO 7932 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-18T22:32:43.083+03:00  INFO 7932 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-18T22:32:43.086+03:00  INFO 7932 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-18T22:32:43.091+03:00  INFO 7932 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-18T22:32:43.092+03:00  INFO 7932 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-18T22:32:43.098+03:00  WARN 7932 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'beanController' defined in file [C:\Users\emree\Desktop\JAVA\SpringBoot\target\classes\com\emreunaldi\springboot\controller\BeanController.class]: Post-processing of merged bean definition failed
+2023-08-18T22:32:43.098+03:00  INFO 7932 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-18T22:32:43.099+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Shutdown initiated...
+2023-08-18T22:32:43.110+03:00  INFO 7932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Shutdown completed.
+2023-08-18T22:32:43.111+03:00  INFO 7932 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-08-18T22:32:43.130+03:00  INFO 7932 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-08-18T22:32:43.136+03:00 ERROR 7932 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'beanController' defined in file [C:\Users\emree\Desktop\JAVA\SpringBoot\target\classes\com\emreunaldi\springboot\controller\BeanController.class]: Post-processing of merged bean definition failed
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:575) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-3.1.2.jar:3.1.2]
+	at com.emreunaldi.springboot.Application.main(Application.java:12) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.1.2.jar:3.1.2]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.emreunaldi.springboot.controller.BeanController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@2153bdf7]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:732) ~[spring-core-6.0.11.jar:6.0.11]
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:664) ~[spring-core-6.0.11.jar:6.0.11]
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.buildPersistenceMetadata(PersistenceAnnotationBeanPostProcessor.java:436) ~[spring-orm-6.0.11.jar:6.0.11]
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.findPersistenceMetadata(PersistenceAnnotationBeanPostProcessor.java:417) ~[spring-orm-6.0.11.jar:6.0.11]
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.findInjectionMetadata(PersistenceAnnotationBeanPostProcessor.java:371) ~[spring-orm-6.0.11.jar:6.0.11]
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(PersistenceAnnotationBeanPostProcessor.java:353) ~[spring-orm-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1083) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:572) ~[spring-beans-6.0.11.jar:6.0.11]
+	... 18 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/emreunaldi/springboot/Bean/BeanConfig
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3397) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2468) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:727) ~[spring-core-6.0.11.jar:6.0.11]
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.emreunaldi.springboot.Bean.BeanConfig
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:496) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:475) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121) ~[spring-boot-devtools-3.1.2.jar:3.1.2]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[na:na]
+	... 29 common frames omitted
+
+2023-08-18T22:33:19.894+03:00  INFO 3020 --- [restartedMain] com.emreunaldi.springboot.Application    : Starting Application using Java 20.0.1 with PID 3020 (C:\Users\emree\Desktop\JAVA\SpringBoot\target\classes started by emree in C:\Users\emree\Desktop\JAVA\SpringBoot)
+2023-08-18T22:33:19.896+03:00  INFO 3020 --- [restartedMain] com.emreunaldi.springboot.Application    : No active profile set, falling back to 1 default profile: "default"
+2023-08-18T22:33:19.949+03:00  INFO 3020 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-18T22:33:19.949+03:00  INFO 3020 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-18T22:33:20.996+03:00  INFO 3020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-18T22:33:21.026+03:00  INFO 3020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 0 JPA repository interfaces.
+2023-08-18T22:33:21.715+03:00  INFO 3020 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2023-08-18T22:33:21.726+03:00  INFO 3020 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-18T22:33:21.727+03:00  INFO 3020 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-18T22:33:21.790+03:00  INFO 3020 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-18T22:33:21.790+03:00  INFO 3020 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1840 ms
+2023-08-18T22:33:21.960+03:00  INFO 3020 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-08-18T22:33:22.195+03:00  INFO 3020 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./memory_persist/deneme user=ROOT
+2023-08-18T22:33:22.197+03:00  INFO 3020 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-08-18T22:33:22.209+03:00  INFO 3020 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/deneme'
+2023-08-18T22:33:22.364+03:00  INFO 3020 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-18T22:33:22.423+03:00  INFO 3020 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-08-18T22:33:22.426+03:00  INFO 3020 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-08-18T22:33:22.573+03:00  INFO 3020 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-18T22:33:22.711+03:00  INFO 3020 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-18T22:33:22.818+03:00  INFO 3020 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-18T22:33:23.024+03:00  INFO 3020 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-18T22:33:23.029+03:00  INFO 3020 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-18T22:33:23.080+03:00  INFO 3020 --- [restartedMain] com.emreunaldi.springboot.dto.BeanDTO    : Bean başlamadan önce ben varım
+2023-08-18T22:33:23.136+03:00  WARN 3020 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-18T22:33:23.684+03:00  WARN 3020 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-08-18T22:33:23.980+03:00  INFO 3020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-18T22:33:23.987+03:00  INFO 3020 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-18T22:33:24.066+03:00  INFO 3020 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2023-08-18T22:33:24.081+03:00  INFO 3020 --- [restartedMain] com.emreunaldi.springboot.Application    : Started Application in 4.654 seconds (process running for 5.468)
+2023-08-18T22:33:24.543+03:00  INFO 3020 --- [RMI TCP Connection(2)-192.168.1.178] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-18T22:33:24.543+03:00  INFO 3020 --- [RMI TCP Connection(2)-192.168.1.178] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-18T22:33:24.545+03:00  INFO 3020 --- [RMI TCP Connection(2)-192.168.1.178] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-08-18T22:34:00.047+03:00  INFO 3020 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 1 deletion, 1 modification)
+2023-08-18T22:34:00.058+03:00  INFO 3020 --- [Thread-6] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-08-18T22:34:00.060+03:00  INFO 3020 --- [Thread-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-08-18T22:34:00.070+03:00  INFO 3020 --- [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-18T22:34:00.073+03:00  INFO 3020 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-08-18T22:34:00.098+03:00  INFO 3020 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-08-18T22:34:00.181+03:00  INFO 3020 --- [restartedMain] com.emreunaldi.springboot.Application    : Starting Application using Java 20.0.1 with PID 3020 (C:\Users\emree\Desktop\JAVA\SpringBoot\target\classes started by emree in C:\Users\emree\Desktop\JAVA\SpringBoot)
+2023-08-18T22:34:00.182+03:00  INFO 3020 --- [restartedMain] com.emreunaldi.springboot.Application    : No active profile set, falling back to 1 default profile: "default"
+2023-08-18T22:34:00.630+03:00  INFO 3020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-18T22:34:00.632+03:00  INFO 3020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2023-08-18T22:34:00.761+03:00  INFO 3020 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2023-08-18T22:34:00.762+03:00  INFO 3020 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-18T22:34:00.762+03:00  INFO 3020 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-18T22:34:00.790+03:00  INFO 3020 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-18T22:34:00.791+03:00  INFO 3020 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 607 ms
+2023-08-18T22:34:00.840+03:00  INFO 3020 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-08-18T22:34:00.852+03:00  INFO 3020 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:file:./memory_persist/deneme user=ROOT
+2023-08-18T22:34:00.852+03:00  INFO 3020 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-08-18T22:34:00.853+03:00  INFO 3020 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/deneme'
+2023-08-18T22:34:00.905+03:00  INFO 3020 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-18T22:34:00.915+03:00  INFO 3020 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-18T22:34:00.916+03:00  INFO 3020 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-18T22:34:00.922+03:00  INFO 3020 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-18T22:34:00.932+03:00  INFO 3020 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-18T22:34:00.932+03:00  INFO 3020 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-18T22:34:00.940+03:00  WARN 3020 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'beanController': Unsatisfied dependency expressed through field 'beanConfig': No qualifying bean of type 'com.emreunaldi.springboot.Bean.BeanConfig' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-08-18T22:34:00.940+03:00  INFO 3020 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-18T22:34:00.941+03:00  INFO 3020 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-08-18T22:34:00.963+03:00  INFO 3020 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-08-18T22:34:00.964+03:00  INFO 3020 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-08-18T22:34:00.982+03:00  INFO 3020 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-08-18T22:34:01.025+03:00 ERROR 3020 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field beanConfig in com.emreunaldi.springboot.controller.BeanController required a bean of type 'com.emreunaldi.springboot.Bean.BeanConfig' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.emreunaldi.springboot.Bean.BeanConfig' in your configuration.
+
+2023-08-18T22:34:02.507+03:00  INFO 3020 --- [restartedMain] com.emreunaldi.springboot.Application    : Starting Application using Java 20.0.1 with PID 3020 (C:\Users\emree\Desktop\JAVA\SpringBoot\target\classes started by emree in C:\Users\emree\Desktop\JAVA\SpringBoot)
+2023-08-18T22:34:02.508+03:00  INFO 3020 --- [restartedMain] com.emreunaldi.springboot.Application    : No active profile set, falling back to 1 default profile: "default"
+2023-08-18T22:34:02.732+03:00  INFO 3020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-18T22:34:02.735+03:00  INFO 3020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2023-08-18T22:34:02.843+03:00  INFO 3020 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2023-08-18T22:34:02.844+03:00  INFO 3020 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-18T22:34:02.844+03:00  INFO 3020 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-18T22:34:02.865+03:00  INFO 3020 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-08-18T22:34:02.866+03:00  INFO 3020 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 356 ms
+2023-08-18T22:34:02.897+03:00  INFO 3020 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2023-08-18T22:34:02.907+03:00  INFO 3020 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection conn11: url=jdbc:h2:file:./memory_persist/deneme user=ROOT
+2023-08-18T22:34:02.907+03:00  INFO 3020 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2023-08-18T22:34:02.907+03:00  INFO 3020 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/deneme'
+2023-08-18T22:34:02.934+03:00  INFO 3020 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-18T22:34:02.942+03:00  INFO 3020 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-18T22:34:02.943+03:00  INFO 3020 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-18T22:34:02.950+03:00  INFO 3020 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-18T22:34:02.962+03:00  INFO 3020 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-18T22:34:02.962+03:00  INFO 3020 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-18T22:34:02.975+03:00  INFO 3020 --- [restartedMain] com.emreunaldi.springboot.dto.BeanDTO    : Bean başlamadan önce ben varım
+2023-08-18T22:34:03.007+03:00  WARN 3020 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-18T22:34:03.295+03:00  WARN 3020 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-08-18T22:34:03.408+03:00  INFO 3020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-18T22:34:03.411+03:00  INFO 3020 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-18T22:34:03.434+03:00  INFO 3020 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2023-08-18T22:34:03.444+03:00  INFO 3020 --- [restartedMain] com.emreunaldi.springboot.Application    : Started Application in 0.979 seconds (process running for 44.831)
+2023-08-18T22:34:03.447+03:00  INFO 3020 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-08-18T22:34:51.732+03:00  INFO 3020 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-08-18T22:34:51.743+03:00  INFO 3020 --- [Thread-8] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-08-18T22:34:51.748+03:00  INFO 3020 --- [Thread-8] com.emreunaldi.springboot.dto.BeanDTO    : Bean bittikten sonra ben varım
+2023-08-18T22:34:51.749+03:00  INFO 3020 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-18T22:34:51.750+03:00  INFO 3020 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2023-08-18T22:34:51.768+03:00  INFO 3020 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2023-08-18T22:34:51.859+03:00  INFO 3020 --- [restartedMain] com.emreunaldi.springboot.Application    : Starting Application using Java 20.0.1 with PID 3020 (C:\Users\emree\Desktop\JAVA\SpringBoot\target\classes started by emree in C:\Users\emree\Desktop\JAVA\SpringBoot)
+2023-08-18T22:34:51.860+03:00  INFO 3020 --- [restartedMain] com.emreunaldi.springboot.Application    : No active profile set, falling back to 1 default profile: "default"
+2023-08-18T22:34:52.171+03:00  INFO 3020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-18T22:34:52.173+03:00  INFO 3020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2023-08-18T22:34:52.250+03:00  INFO 3020 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2023-08-18T22:34:52.250+03:00  INFO 3020 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-18T22:34:52.250+03:00  INFO 3020 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-18T22:34:52.267+03:00  INFO 3020 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-08-18T22:34:52.267+03:00  INFO 3020 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 405 ms
+2023-08-18T22:34:52.289+03:00  INFO 3020 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2023-08-18T22:34:52.297+03:00  INFO 3020 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection conn21: url=jdbc:h2:file:./memory_persist/deneme user=ROOT
+2023-08-18T22:34:52.297+03:00  INFO 3020 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2023-08-18T22:34:52.298+03:00  INFO 3020 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/deneme'
+2023-08-18T22:34:52.324+03:00  INFO 3020 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-18T22:34:52.330+03:00  INFO 3020 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-18T22:34:52.330+03:00  INFO 3020 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-18T22:34:52.333+03:00  INFO 3020 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-18T22:34:52.337+03:00  INFO 3020 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-18T22:34:52.337+03:00  INFO 3020 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-18T22:34:52.343+03:00  INFO 3020 --- [restartedMain] com.emreunaldi.springboot.dto.BeanDTO    : Bean başlamadan önce ben varım
+2023-08-18T22:34:52.356+03:00  WARN 3020 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-18T22:34:52.610+03:00  WARN 3020 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-08-18T22:34:52.689+03:00  INFO 3020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-18T22:34:52.691+03:00  INFO 3020 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-18T22:34:52.711+03:00  INFO 3020 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2023-08-18T22:34:52.722+03:00  INFO 3020 --- [restartedMain] com.emreunaldi.springboot.Application    : Started Application in 0.9 seconds (process running for 94.109)
+2023-08-18T22:34:52.724+03:00  INFO 3020 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-08-18T22:34:59.192+03:00  INFO 3020 --- [SpringApplicationShutdownHook] com.emreunaldi.springboot.dto.BeanDTO    : Bean bittikten sonra ben varım
+2023-08-18T22:34:59.192+03:00  INFO 3020 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-18T22:34:59.193+03:00  INFO 3020 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2023-08-18T22:34:59.194+03:00  INFO 3020 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
