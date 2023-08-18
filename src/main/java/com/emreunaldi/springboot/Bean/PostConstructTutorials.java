@@ -7,18 +7,9 @@ import java.util.logging.Logger;
 
 @Controller
 public class PostConstructTutorials {
-    @Autowired
+    /*@Autowired
     Logger LOG;
 
-    /*
-    // Parametresiz Conctructor
-    // because "this.LOG" is null
-    public PostConstructTutorials(){
-        LOG.info("Log info called");
-    }*/
-
-    // Bean henüz başlamadığından null alıyoruz ve burada bağımlılık enjekte ediyoruz
-    //Görevi: bir bean nesnesi oluşturulduğunda hemen oluşur
     @PostConstruct
     public void init(){
         LOG.info("Log info called");
@@ -27,5 +18,5 @@ public class PostConstructTutorials {
     public static void main(String[] args) {
         PostConstructTutorials beanController = new PostConstructTutorials();
         System.out.println(beanController);
-    }
+    }*/
 }
