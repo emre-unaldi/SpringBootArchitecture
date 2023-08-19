@@ -4,12 +4,21 @@ import com.emreunaldi.springboot.dto.ProductDTO;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @Controller
 public class ThymeleafController {
+
+    // option : root {}
+    // http://localhost:8000/
+    @GetMapping({"/", "index"})
+    public String index() {
+        return "index";
+    }
+
     // http://localhost:8000/thymeleaf1
     @GetMapping("/thymeleaf1")
     public String getThymeleaf1() {
@@ -41,15 +50,15 @@ public class ThymeleafController {
 
     // http://localhost:8000/thymeleaf5
     @GetMapping("/thymeleaf5")
-    public String getThymeleafObject(Model model) {
+    public String getThymeleaf5Object(Model model) {
         model.addAttribute("key_model1", "Text");
 
         ProductDTO productDTO;
         productDTO = ProductDTO
                 .builder()
-                    .productId(0L)
-                    .productName("Ürün Adı")
-                    .productPrice(2000)
+                .productId(0L)
+                .productName("Ürün Adı")
+                .productPrice(2000)
                 .build();
 
         model.addAttribute("key_model2", productDTO);
@@ -59,7 +68,7 @@ public class ThymeleafController {
 
     // http://localhost:8000/thymeleaf6
     @GetMapping("/thymeleaf6")
-    public String getThymeleafObjectList(Model model) {
+    public String getThymeleaf6ObjectList(Model model) {
         model.addAttribute("key_model1", "text");
         List<ProductDTO> productList = new ArrayList<>();
 
@@ -72,5 +81,17 @@ public class ThymeleafController {
         model.addAttribute("productList", productList);
 
         return "thymeleaf6";
+    }
+
+    // http://localhost:8000/thymeleaf7/{id}
+    @GetMapping({"/thymeleaf7/{id}", "/thymeleaf7"})
+    public String getThymeleaf7Object(Model model, @PathVariable(name = "id", required = false) Long id) {
+        if (id != null) {
+            model.addAttribute("key_model1", "id : " + id);
+        } else {
+            model.addAttribute("key_model1", "id bulunamadı");
+        }
+
+        return "thymeleaf7";
     }
 }
