@@ -108,7 +108,7 @@
             <version>1.6.5</version>
         </dependency>
 
-        <!-- Model Wrapper -->
+        <!-- Model Mapper -->
         <dependency>
             <groupId>org.modelmapper</groupId>
             <artifactId>modelmapper</artifactId>
