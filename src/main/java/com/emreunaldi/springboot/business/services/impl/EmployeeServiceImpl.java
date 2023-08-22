@@ -43,7 +43,7 @@ public class EmployeeServiceImpl implements EmployeeServices {
 
     // SAVE
     // localhost:8000/api/v1/employess
-    @PostMapping("/employess")
+    @PostMapping("/employees")
     @Override
     public EmployeeDto createEmployee(@RequestBody EmployeeDto employeeDto) {
         EmployeeEntity employeeEntity = dtoToEntity(employeeDto);
@@ -55,7 +55,7 @@ public class EmployeeServiceImpl implements EmployeeServices {
 
     // FIND
     // localhost:8000/api/v1/employess/1
-    @GetMapping("/employess/{id}")
+    @GetMapping("/employees/{id}")
     @Override
     public ResponseEntity<EmployeeDto> getEmployeeById(@PathVariable Long id) throws Throwable {
         EmployeeEntity employeeEntity = (EmployeeEntity) employeeRepository.findById(id)
