@@ -1,13 +1,29 @@
 # Spring Boot Architecture
 - Java 20
+- Spring Framework
 - Spring Boot
 - Spring MVC
 - Spring Data
-- Spring Security
 - Spring Rest
+- Spring Security
+
+## System login
+> Register
+> 
+> Login
+> 
+> Authorization (JWT)
 
 ## Lesson Steps
-> Spring MVC
+> Spring Framework
+> 
+> Spring Boot
+> 
+> Spring Data (JPA Hibernate)
+> 
+> Spring Rest (RestFull)
+> 
+> Spring Security
 
 ### Reference Documentation
 
@@ -19,6 +35,7 @@ docker
 * [H2 Console](https://localhost:8001/h2-console)
 * [Swagger](https://localhost:8001/swagger-ui.html)
 
+## Docker Deployment
 ```shell
 Step 1
 $   ./mvnw clean package -DskipTests
