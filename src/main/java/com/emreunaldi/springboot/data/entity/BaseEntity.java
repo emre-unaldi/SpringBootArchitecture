@@ -1,5 +1,6 @@
 package com.emreunaldi.springboot.data.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
@@ -12,11 +13,20 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import java.util.Date;
 
-@MappedSuperclass
+// Lombock
 @Getter
 @Setter
+
+// Hibernate JPA
+@MappedSuperclass
+
+// Auditing
 @EntityListeners(AuditingEntityListener.class)
+@JsonIgnoreProperties(value = {"created_date, updated_date"}, allowGetters = true)
 public class BaseEntity {
+    /*
+    Auditimng yapısı biz datalarımızda kim ne zaman ne yaptı bilgisini yönlendiririz
+    */
     @Id
     @Column(name = "id", nullable = false)
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -29,15 +39,15 @@ public class BaseEntity {
     @CreatedDate
     private Date createdDate;
 
-     @Column(name = "updated_by")
-     @LastModifiedBy
+    @Column(name = "updated_by")
+    @LastModifiedBy
     private String updatedBy;
-     @Column(name = "updated_date")
-     @LastModifiedDate
+    @Column(name = "updated_date")
+    @LastModifiedDate
     private Date updatedDate;
 
-     @Column(name = "system_auto_date")
-     @Temporal(TemporalType.TIMESTAMP)
-     @CreationTimestamp
-     private Date date;
+    @Column(name = "system_auto_date")
+    @Temporal(TemporalType.TIMESTAMP)
+    @CreationTimestamp
+    private Date date;
 }
