@@ -7,63 +7,17 @@
 - Spring Rest
 - Spring Security
 
-## System login
-> Register
-> 
-> Login
-> 
-> Authorization (JWT)
-
-## Lesson Steps
-> Spring Framework
-> 
-> Spring Boot
-> 
-> Spring Data (JPA Hibernate)
-> 
-> Spring Rest (RestFull)
-> 
-> Spring Security
-
 ### Reference Documentation
 
 * [Github](https://github.com/emre-unaldi/SpringBootArchitecture)
+* [H2 Console](https://localhost:8000/h2-console)
+* [Swagger](https://localhost:8000/swagger-ui.html)
 
-```shell
-docker
-```
-* [H2 Console](https://localhost:8001/h2-console)
-* [Swagger](https://localhost:8001/swagger-ui.html)
+| Route             | HTTP Verb	 | Description	       |
+|-------------------|------------|--------------------|
+| /api/v1/employees/{id} | `GET`      | Get employee by id |
+| /api/v1/employees/{id} | `PUT`      | Update Employee    |
+| /api/v1/employees/{id} | `DELETE`   | Delete Employee    |
+| /api/v1/employees | `GET`      | Get employees      |
+| /api/v1/employees | `POST`     | Create Employee    |
 
-## Docker Deployment
-```shell
-Step 1
-$   ./mvnw clean package -DskipTests
-
-Step 2
-$   docker-compose up
-$   docker ps
-
-Step 3 
-POSTMAN
-
-// ADD
-http://localhost:8000/docker/v1/create/product
-
-// List
-http://localhost:8000/docker/v1/list/product
-
-// FIND
-http://localhost:8000/docker/v1/find/product/1
-
-// DELETE
-http://localhost:8000/docker/v1/delete/product/1
-
-Step 4
-$   docker exec -it spring_docker_postresql_1 psql -U postgres studentdb
-
-Step 5
-$   studentdb = # \dt ==> Tabloları göstermek
-$   studentdb = # select * from product
-$   studentdb = # \q ==> ÇIKIŞ
-```
